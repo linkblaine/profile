@@ -1,0 +1,28 @@
+[user]
+	name = Zack Mance
+	email = zmance@gmail.com
+[github]
+  user = linkblaine
+
+[merge]
+        tool = vim
+[mergetool]
+  prompt = false
+
+
+[credential]
+	helper = osxkeychain
+
+[alias]
+ g  = grep --break --heading --line-number
+ st = status
+ c  = commit
+ co = checkout
+
+[push]
+  default = simple
+
+[grep]
+  lineNumber = true
+[core]
+	excludesfile = /Users/zackmanc/.gitignore
