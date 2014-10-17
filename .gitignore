@@ -1,4 +1,4 @@
-.DS_store
+*.DS_store
 
 Applications
 Desktop
@@ -27,6 +27,4 @@ Public
 .hostname
 
 vendor/bundle
-.DS_Store
-
 *
