@@ -25,7 +25,22 @@ Dropbox/
 .vim_mru_files
 .viminfo
 .hostname
-
+.config/
+.cups/
+.dbc/
+.dropbox/
+.heroku/
+.irb-history
+.lesshst
+.netrc
+.node-gyp/
+.npm/
+.pgpass
+.profile
+.psql_history
+.subversion/
+.vim/
+.zlogin
+.zshrc
 vendor/bundle
 
-*.*
