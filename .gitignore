@@ -1,16 +1,16 @@
 *.DS_store
 
-Applications
-Desktop
-Documents
-Downloads
-Library
-Movies
-Music
-Pictures
-Projects
-Public
-
+Applications/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Projects/
+Public/
+Dropbox/
 .vim/bundle
 .vim/.netrwhist
 .rvm
@@ -27,4 +27,5 @@ Public
 .hostname
 
 vendor/bundle
-*
+
+*.*
