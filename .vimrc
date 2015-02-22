@@ -15,17 +15,19 @@ set wildignore+=*\\tmp\\*,*.swp,*.zip,*.exe,*.class,*.jar,*.html,*.xml
 let g:ctrlp_root_markers = ['.acignore', '.gitignore']
 let g:ctrlp_working_path_mode = 'a'
 let g:ctrlp_by_filename = 1
+set background=light
 
+hi CursorLine term=bold cterm=bold guibg=Grey40
 
-colorscheme ir_black
-hi CursorLine term=bold cterm=bold guibg=Grey40 ctermbg=228 ctermfg=NONE
-
+execute pathogen#infect()
 
 
 syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
+
+set background=dark
 
 " set the runtime path to include Vundle and initialize
 call vundle#begin()
@@ -35,3 +37,4 @@ call vundle#end()            " required
 
 autocmd WinEnter * setlocal cursorline
 autocmd WinLeave * setlocal nocursorline
+
