@@ -20,4 +20,5 @@ if [ -f ~/.git-completion.bash ]; then
 fi
 
 alias ls='ls -lGp'
-alias cd:dbc='cd ~/Projects/DevBootCamp'
+alias cd:dbc='cd ~/DevBootCamp'
+alias be='bundle exec'
